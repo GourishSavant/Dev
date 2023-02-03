@@ -1,0 +1,117 @@
+
+<!-- <div class="container">
+    <mat-card>
+        <div>
+            <h1>ORDER FORM </h1>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>OrderNo</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderNo">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>ContactName</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.ContactName">
+              </mat-form-field>
+        </div>
+        <div>
+         <mat-form-field appearance="outline" >
+                <mat-label>OrderDate</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderDate">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline"  >
+                <mat-label>ItemsOrdered</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.ItemsOrdered">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>ItemsOrdered</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderDate">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>OrderTotal</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderTotal">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline"  >
+                <mat-label>TaxTotal</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.TaxTotal">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline"  >
+                <mat-label>GrandTotal</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.GrandTotal">
+              </mat-form-field>
+        </div> 
+        <div>
+            <button mat-raised-button color="primary"(click)="addRecords()">Add Records</button>
+        </div>
+    </mat-card>
+</div> -->
+<mat-card class="main">
+    <div class="clone">
+        <div class="card-header">
+            <h1>ORDER FORM </h1>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>OrderNo</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderNo">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>ContactName</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.ContactName">
+              </mat-form-field>
+
+        </div>
+        <!-- date -->
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>OrderDate</mat-label>
+                <input type="date" matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderDate">
+              </mat-form-field>
+        </div>
+       
+        <div>
+            <mat-form-field appearance="outline"  >
+                <mat-label>ItemsOrdered</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.ItemsOrdered">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline" >
+                <mat-label>OrderTotal</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.OrderTotal">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>TaxTotal</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.TaxTotal">
+              </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field appearance="outline">
+                <mat-label>GrandTotal</mat-label>
+                <input matInput placeholder="Placeholder"[(ngModel)]="RestoRecord.GrandTotal">
+              </mat-form-field>
+        </div> 
+        <div>
+            <button mat-raised-button color="primary"(click)="addRecords()">Add Records</button>
+        </div>
+       
+    </div>
+</mat-card>
+
+

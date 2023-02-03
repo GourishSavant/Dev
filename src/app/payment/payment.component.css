@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.main{
+    width: 40%;
+    margin: auto;
+}
+.container{
+    margin: auto;
+    text-align: center;
+}
+label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+}
+input {
+    padding: 4px;
+    margin: 5px;
+    width: 9cm;
+    
+}
+
+.btn{
+    width: 80px;
+    height: 50px;
+}
+.card{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+h1{
+    background-color: rgb(26, 26, 116);
+    color: whitesmoke;
+}
+.clone{
+    text-align: center;
+}

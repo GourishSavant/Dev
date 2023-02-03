@@ -1,0 +1,50 @@
+
+<div class="card">
+    <div class="card-header">
+        <h1> PLEASE MAKE PAYMENT  </h1>
+    </div>
+    <div class="card-body">
+        <form >
+            <div class="form-group">
+                <label  for="cc-number" for="exampleInputEmail1">Credit Card Number</label>
+                <input type="tel" autocomplete="cc-number"  id="cc-number" placeholder="**** **** ****" maxlength="12" name="cardo"[(ngModel)]="paymentRec.CardNo" >
+              </div>
+              <br><br>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name on Card</label>
+                <input type="text" maxlength="12" name="contactName"[(ngModel)]="paymentRec.ContactName">
+            </div> 
+            <br><br>
+            <div class="form-group">
+                <label for="exampleInputEmail1">OrderNo</label>
+                <input type="text" maxlength="2" name="contactName"[(ngModel)]="paymentRec.OrderNo">
+            </div> 
+            <br><br>
+             <div class="form-group">
+              <label for="exampleInputEmail1">Exp Month and Year</label>
+              <input type="date" name="date" min="{{minDate}}"[(ngModel)]="paymentRec.EMY">
+            </div>
+            <br><br>
+            <div class="form-group">
+                <label for="exampleInputEmail1">CVV</label>
+                <input type="tel" id="cc-exp" autocomplete="cc-exp" name="cvv"  placeholder="****" maxlength="3" [(ngModel)]="paymentRec.CVV">
+            </div> 
+            <br><br>
+            <a href="paymentInfo" (click)="addPaymentRecords()" type="submit" class="btn btn-secondary">Submit</a>
+          </form>
+    </div>
+</div>
+
+
+
+
+  
+ 
+
+  
+
+
+
+
+
+
